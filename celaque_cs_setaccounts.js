@@ -3,6 +3,7 @@
  * @NScriptType ClientScript
  * @NModuleScope SameAccount
  */
+
 define(['N/record', 'N/search'], function(record, search) {
 
     function pageInit(context) {

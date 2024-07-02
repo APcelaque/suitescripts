@@ -3,38 +3,45 @@
  * @NScriptType UserEventScript
  * @NModuleScope SameAccount
  */
+
 define(['N/ui/serverWidget'], function(serverWidget) {
 
     function beforeLoad(context) {
+
         if ( context.type === context.UserEventType.EDIT || context.type === context.UserEventType.CREATE) {
             // Create the field
             var form = context.form;
-       //   var fieldgroup = form.addFieldGroup({
-    //id : 'cuentagroup',
-   // label : 'Cuenta'
-//});
+
+            //var fieldgroup = form.addFieldGroup({
+                //id : 'cuentagroup',
+                // label : 'Cuenta'
+            //});
+            
             var customField = form.addField({
                 id: 'custpage_accounts',
                 type: serverWidget.FieldType.SELECT,
                 label: 'Accounts',
-               // container: 'cuentagroup'
+                //container: 'cuentagroup'
             });
-          form.insertField({
-    field : customField,
-    nextfield : 'custbody_formapago'
-});
+
+            form.insertField({
+                field : customField,
+                nextfield : 'custbody_formapago'
+            });
           
-         //  customField.updateLayoutType({
-  // layoutType: serverWidget.FieldLayoutType.OUTSIDEABOVE
-//});
-          //  customField.defaultValue = '';
+            //customField.updateLayoutType({
+                //layoutType: serverWidget.FieldLayoutType.OUTSIDEABOVE
+            //});
             
+            //customField.defaultValue = '';
         }
     }
 
     //container: 'main'
     function beforeSubmit(context) {
+
         if (context.type === context.UserEventType.CREATE || context.type === context.UserEventType.EDIT) {
+            
             var currentRecord = context.newRecord;
 
             var customDropdownValue = currentRecord.getValue({
