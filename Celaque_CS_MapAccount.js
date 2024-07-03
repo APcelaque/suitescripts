@@ -80,7 +80,7 @@ define([], function() {
             "AGQ8": "629",
             "OCCI": "640",
             "ASI": "641",
-            "DASI": "1186", // No esta o bien es 1816
+            "DASI": "1186", 
             "AHC0": "1816",
             "AHC1": "1816",
             "CIP": "1858",
