@@ -86,7 +86,7 @@ define([
         } catch (error) {
             log.error({
                 title: 'Error en updateAccountField',
-                details: errortoString()
+                details: error.toString()
             });
         }
     }
