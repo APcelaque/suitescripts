@@ -1,0 +1,194 @@
+Account Options: [
+  {
+    "ID": "-1",
+    "Cuentas": "- New -"
+  },
+  {
+    "ID": "333",
+    "Cuentas": "1100-010 Caja y Banco : Caja General"
+  },
+  {
+    "ID": "334",
+    "Cuentas": "1100-020 Caja y Banco : Caja Chica"
+  },
+  {
+    "ID": "336",
+    "Cuentas": "1100-040 Caja y Banco : BAC Celaque L"
+  },
+  {
+    "ID": "337",
+    "Cuentas": "1100-050 Caja y Banco : BAC Celaque $"
+  },
+  {
+    "ID": "557",
+    "Cuentas": "1100-070 Caja y Banco : BAC Titanio L"
+  },
+  {
+    "ID": "350",
+    "Cuentas": "1100-080 Caja y Banco : Occidente L"
+  },
+  {
+    "ID": "351",
+    "Cuentas": "1100-090 Caja y Banco : Occidente $"
+  },
+  {
+    "ID": "459",
+    "Cuentas": "1100-100 Caja y Banco : Cuenta Puente"
+  },
+  {
+    "ID": "598",
+    "Cuentas": "1100-110 Caja y Banco : BAC Cobalto L"
+  },
+  {
+    "ID": "599",
+    "Cuentas": "1100-120 Caja y Banco : BAC Cobalto $"
+  },
+  {
+    "ID": "602",
+    "Cuentas": "1100-130 Caja y Banco : Banrural $"
+  },
+  {
+    "ID": "605",
+    "Cuentas": "1100-140 Caja y Banco : BAC Iridio L"
+  },
+  {
+    "ID": "606",
+    "Cuentas": "1100-150 Caja y Banco : Banrural L"
+  },
+  {
+    "ID": "629",
+    "Cuentas": "1100-200 Caja y Banco : BAC Atima L"
+  },
+  {
+    "ID": "640",
+    "Cuentas": "1100-220 Caja y Banco : Occidente Atima L"
+  },
+  {
+    "ID": "641",
+    "Cuentas": "1100-230 Caja y Banco : Ficohsa Titanio L"
+  },
+  {
+    "ID": "672",
+    "Cuentas": "1100-250 Caja y Banco : BAC Celaque $ ahorro"
+  },
+  {
+    "ID": "681",
+    "Cuentas": "1100-260 Caja y Banco : Lafise Iridio L"
+  },
+  {
+    "ID": "785",
+    "Cuentas": "1100-270 Caja y Banco : Lafise Iridio $"
+  },
+  {
+    "ID": "1186",
+    "Cuentas": "1100-280 Caja y Banco : Ficohsa Titanio $"
+  },
+  {
+    "ID": "1187",
+    "Cuentas": "1100-290 Caja y Banco : Banrural $ préstamo"
+  },
+  {
+    "ID": "1188",
+    "Cuentas": "1100-300 Caja y Banco : Banrural Lps préstamo"
+  },
+  {
+    "ID": "1801",
+    "Cuentas": "1100-310 Caja y Banco : Ficohsa Cobalto L"
+  },
+  {
+    "ID": "1802",
+    "Cuentas": "1100-320 Caja y Banco : Bac Iridio L ahorro"
+  },
+  {
+    "ID": "1803",
+    "Cuentas": "1100-330 Caja y Banco : Bac Iridio $ ahorro"
+  },
+  {
+    "ID": "1810",
+    "Cuentas": "1100-340 Caja y Banco : Occidente Atima $"
+  },
+  {
+    "ID": "1815",
+    "Cuentas": "1100-350 Caja y Banco : BAC Socios"
+  },
+  {
+    "ID": "1816",
+    "Cuentas": "1100-360 Caja y Banco : Bac Iridio $"
+  },
+  {
+    "ID": "1817",
+    "Cuentas": "1100-370 Caja y Banco : Ficohsa Titanio $ ahorro"
+  },
+  {
+    "ID": "1819",
+    "Cuentas": "1100-380 Caja y Banco : BAC Fundación L"
+  },
+  {
+    "ID": "1858",
+    "Cuentas": "1100-390 Caja y Banco : Ficohsa Iridio L"
+  },
+  {
+    "ID": "1859",
+    "Cuentas": "1100-400 Caja y Banco : Ficohsa Iridio $"
+  },
+  {
+    "ID": "24485",
+    "Cuentas": "1100-410 Caja y Banco : BAC Celaque L ahorro"
+  },
+  {
+    "ID": "31989",
+    "Cuentas": "1100-420 Caja y Banco : Ficohsa ASI L"
+  },
+  {
+    "ID": "31990",
+    "Cuentas": "1100-430 Caja y Banco : Ficohsa ASI $"
+  },
+  {
+    "ID": "31991",
+    "Cuentas": "1100-440 Caja y Banco : BAC AGA L"
+  },
+  {
+    "ID": "31992",
+    "Cuentas": "1100-450 Caja y Banco : BAC AGA $"
+  },
+  {
+    "ID": "31993",
+    "Cuentas": "1100-460 Caja y Banco : BAC AST L"
+  },
+  {
+    "ID": "31994",
+    "Cuentas": "1100-470 Caja y Banco : BAC AST $"
+  },
+  {
+    "ID": "31995",
+    "Cuentas": "1100-480 Caja y Banco : BAC DA L"
+  },
+  {
+    "ID": "31996",
+    "Cuentas": "1100-490 Caja y Banco : BAC DA $"
+  },
+  {
+    "ID": "32797",
+    "Cuentas": "1100-500 Caja y Banco : Ficohsa Argon L"
+  },
+  {
+    "ID": "32798",
+    "Cuentas": "1100-510 Caja y Banco : Ficohsa Atima L"
+  },
+  {
+    "ID": "32799",
+    "Cuentas": "1100-520 Caja y Banco : Ficohsa Celaque L"
+  },
+  {
+    "ID": "32908",
+    "Cuentas": "1100-530 Caja y Banco : Occidente Titanio L"
+  },
+  {
+    "ID": "32909",
+    "Cuentas": "1100-540 Caja y Banco : Ficohsa Cobalto $ ahorro"
+  },
+  {
+    "ID": "32911",
+    "Cuentas": "1100-550 Caja y Banco : Ficohsa Atima $ ahorro"
+  }
+]

@@ -11,32 +11,120 @@ define([
 ], function(record, search, log) {
     'use strict';
 
+    // Se mapean las id y la nomenclarura de las cuentas correspondientes
+
+    var accountMapping = {
+        "AC03": "336",
+        "AF28": "336",
+        "ADJ3": "337",
+        "AHC2": "557",
+        "AHC3": "557",
+        "AF04": "598",
+        "AF05": "598",
+        "DASP":	"598",
+        "DAP4": "598",
+        "AKE9": "599",
+        "AHB8": "605",
+        "AHB9": "605",
+        "AGQ7": "629",
+        "AGQ8": "629",
+        "OCCI": "640",
+        "ASI": "641",
+        "DASI": "1186",
+        "DOCCI": "1810",
+        "AHC0": "1816",
+        "AHC1": "1816",
+        "AG99": "1819",
+        "AG98": "1819",
+        "CIP": "1858",
+        "DCIP": "1859",
+        "AISA": "31989",
+        "ALH1": "31991",
+        "ALH6": "31991",
+        "AK68": "31991",
+        "AK69": "31991",
+        "AK70": "31991",
+        "DAK68": "31992",
+        "DAK69": "31992",
+        "DAK70": "31992",
+        "ALH4": "31993",
+        "ALH5": "31995",
+        "ARG": "32797",
+        "ATL": "32798",
+        "ATLP": "32799",
+        "LIR": "32908",
+        "LIRP": "32908"
+    }
+
     function pageInit(context) {
         var currentRecord = context.currentRecord;
-        logAccountValues(currentRecord);
+        logAccountOptions(currentRecord);
+        updateAccountField(currentRecord);
     }
 
     function fieldChanged(context) {
         var currentRecord = context.currentRecord;
-        if (context.fieldId === 'custbody16') {
-            logAccountValues(currentRecord);
+        
+        if (context.fieldId === 'custbody16') { 
+            updateAccountField(currentRecord);
         }
     }
 
-    function logAccountValues(currentRecord) {
+    function updateAccountField(currentRecord) {
         try {
-            var accountId = currentRecord.getValue({ fieldId: 'account' });
-            var accountText = currentRecord.getText({ fieldId: 'account' });
+            var nomenclatura = currentRecord.getValue({ fieldId: 'custbody16' });
+            var accountId = accountMapping[nomenclatura];
 
-            console.log('Account ID: ' + accountId);
-            console.log('Account Text: ' + accountText);
+            if (accountId) {
+                currentRecord.setValue({ fieldId: 'account', value: accountId });
+                log.debug('Account actualizada', 'Nomenclatura: ' + nomenclatura + ', Account ID: ' + accountId);
+
+            } else {
+                log.debug('Nomenclatura no encontrada en el mapeo', 'Nomenclatura: ' + nomenclatura);
+            }
 
         } catch (error) {
             log.error({
-                title: 'Error en logAccountValues',
-                details: error
+                title: 'Error en updateAccountField',
+                details: errortoString()
             });
         }
     }
-    
+
+    function logAccountOptions(currentRecord) {
+        
+        try {
+            var accountField = currentRecord.getField({
+                fieldId: 'account'
+            });
+
+            var options = accountField.getSelectOptions();
+            var optionsArray = [];
+
+            options.forEach(function(option) {
+                optionsArray.push({
+                    ID: option.value, 
+                    Cuenta: option.text 
+                });
+            });
+
+            var optionsJSON = JSON.stringify(optionsArray, null, 2);
+
+            console.log('Account Options:', optionsJSON);
+
+            log.debug('Account Options JSON', optionsJSON);
+
+        } catch (error) {
+            log.error({
+                title: 'Error en logAccountOptions',
+                details: error.toString()
+            });
+        }
+    }
+
+    return {
+        pageInit: pageInit,
+        fieldChanged: fieldChanged
+    };
+
 });

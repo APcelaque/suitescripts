@@ -73,7 +73,7 @@ define(['N/log'], function(log) {
             "AGQ7": "629",
             "AGQ8": "629",
             "OCCI": "640",
-            "ASI": "641",
+            "ASI": "641", 
             "DASI": "1186",
             "AHC0": "1816",
             "AHC1": "1816",
