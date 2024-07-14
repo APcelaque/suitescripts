@@ -14,14 +14,14 @@ define([
     // Se mapean las id y la nomenclarura de las cuentas correspondientes
 
     var accountMapping = {
-        "AC03": "336",
-        "AF28": "336",
+        "AC03": "334",
+        "AF28": "334",
         "ADJ3": "337",
         "AHC2": "557",
         "AHC3": "557",
         "AF04": "598",
         "AF05": "598",
-        "DASP":	"598",
+        "DASP": "598",
         "DAP4": "598",
         "AKE9": "599",
         "AHB8": "605",
@@ -37,6 +37,7 @@ define([
         "AG99": "1819",
         "AG98": "1819",
         "CIP": "1858",
+        "CIPP": "1858",
         "DCIP": "1859",
         "AISA": "31989",
         "ALH1": "31991",
@@ -44,17 +45,16 @@ define([
         "AK68": "31991",
         "AK69": "31991",
         "AK70": "31991",
-        "DAK68": "31992",
-        "DAK69": "31992",
-        "DAK70": "31992",
         "ALH4": "31993",
         "ALH5": "31995",
         "ARG": "32797",
         "ATL": "32798",
-        "ATLP": "32799",
+        "ATLP": "32798",
         "LIR": "32908",
-        "LIRP": "32908"
-    }
+        "LIRP": "32908",
+        "BPN": "33432",
+        "DATL": "33853"
+    };
 
     function pageInit(context) {
         var currentRecord = context.currentRecord;
@@ -65,14 +65,14 @@ define([
     function fieldChanged(context) {
         var currentRecord = context.currentRecord;
         
-        if (context.fieldId === 'custbody16') { 
+        if (context.fieldId === 'custbody_nomenclatura_cuenta') { 
             updateAccountField(currentRecord);
         }
     }
 
     function updateAccountField(currentRecord) {
         try {
-            var nomenclatura = currentRecord.getValue({ fieldId: 'custbody16' });
+            var nomenclatura = currentRecord.getValue({ fieldId: 'custbody_nomenclatura_cuenta' });
             var accountId = accountMapping[nomenclatura];
 
             if (accountId) {

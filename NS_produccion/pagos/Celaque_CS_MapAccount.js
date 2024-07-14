@@ -38,8 +38,8 @@ define([], function() {
         
         //custbody_formapago === '2'
         if (ejemplo === '2') {
-            if(fieldName === 'custbody16') {
-                var tranid = currentRecord.getValue({fieldId: 'custbody16'});
+            if(fieldName === 'custbody_nomenclatura_cuenta') {
+                var tranid = currentRecord.getValue({fieldId: 'custbody_nomenclatura_cuenta'});
                 var accountID = mapTranidToAccount(tranid);
 
                 //alert("Mapped Account ID: " + accountID);
@@ -61,45 +61,46 @@ define([], function() {
     function mapTranidToAccount(tranid) {
 
         var accountMapping = {
-            "ARG":"32797",
-            "ATL":"32798",
-            "AF28": "336",
-            "AG98": "1819",
-            "AG99": "1819",
-            'AC03': "336",
+            "AC03": "334",
+            "AF28": "334",
             "ADJ3": "337",
-            'AHC2': "557",
-            'AHC3': "557",
+            "AHC2": "557",
+            "AHC3": "557",
             "AF04": "598",
             "AF05": "598",
-            "DAP4": "598",
             "DASP": "598",
+            "DAP4": "598",
+            "AKE9": "599",
             "AHB8": "605",
             "AHB9": "605",
             "AGQ7": "629",
             "AGQ8": "629",
             "OCCI": "640",
             "ASI": "641",
-            "DASI": "1186", // No esta o bien es 1816
+            "DASI": "1186",
+            "DOCCI": "1810",
             "AHC0": "1816",
             "AHC1": "1816",
+            "AG99": "1819",
+            "AG98": "1819",
             "CIP": "1858",
-            "DCIP": "1859",
             "CIPP": "1858",
+            "DCIP": "1859",
             "AISA": "31989",
             "ALH1": "31991",
             "ALH6": "31991",
-            "AK68": "31995",
-            "AK69": "31993",
+            "AK68": "31991",
+            "AK69": "31991",
             "AK70": "31991",
-            "ALH2": "31993",
-            "ALH3": "31995",
             "ALH4": "31993",
             "ALH5": "31995",
+            "ARG": "32797",
+            "ATL": "32798",
             "ATLP": "32798",
             "LIR": "32908",
-            "BPN":"33432", // No esta la cuenta.
-            "AKE9":"599" // No está la cuenta.
+            "LIRP": "32908",
+            "BPN": "33432",
+            "DATL": "33853"
         };
 
         var naming = extractNaming(tranid);

@@ -12,7 +12,8 @@ define(['N/record', 'N/search'], function(record, search) {
         var selectCuenta = currentRecord.getValue({
             fieldId: 'account'
         });
-      log.debug(selectCuenta);
+
+        log.debug(selectCuenta);
         currentRecord.setValue({fieldId: 'custpage_accounts', value:selectCuenta });
         
     }
