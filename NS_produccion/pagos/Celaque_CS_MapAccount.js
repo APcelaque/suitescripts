@@ -61,8 +61,8 @@ define([], function() {
     function mapTranidToAccount(tranid) {
 
         var accountMapping = {
-            "AC03": "334",
-            "AF28": "334",
+            "AC03": "336",
+            "AF28": "336",
             "ADJ3": "337",
             "AHC2": "557",
             "AHC3": "557",
