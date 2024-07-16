@@ -1,264 +1,280 @@
 {
   "account_Options": [
-    {
-        "ID": "333",
-        "Cuenta": "1100-010 Caja y Banco : Caja General"
-      },
-      {
-        "ID": "334",
-        "Cuenta": "1100-020 Caja y Banco : Caja Chica"
-      },
-      {
-        "ID": "336",
-        "Cuenta": "1100-040 Caja y Banco : BAC Celaque L"
-      },
-      {
-        "ID": "337",
-        "Cuenta": "1100-050 Caja y Banco : BAC Celaque $"
-      },
-      {
-        "ID": "557",
-        "Cuenta": "1100-070 Caja y Banco : BAC Titanio L"
-      },
-      {
-        "ID": "350",
-        "Cuenta": "1100-080 Caja y Banco : Occidente L"
-      },
-      {
-        "ID": "351",
-        "Cuenta": "1100-090 Caja y Banco : Occidente $"
-      },
-      {
-        "ID": "459",
-        "Cuenta": "1100-100 Caja y Banco : Cuenta Puente"
-      },
-      {
-        "ID": "598",
-        "Cuenta": "1100-110 Caja y Banco : BAC Cobalto L"
-      },
-      {
-        "ID": "599",
-        "Cuenta": "1100-120 Caja y Banco : BAC Cobalto $"
-      },
-      {
-        "ID": "605",
-        "Cuenta": "1100-140 Caja y Banco : BAC Iridio L"
-      },
-      {
-        "ID": "606",
-        "Cuenta": "1100-150 Caja y Banco : Banrural L"
-      },
-      {
-        "ID": "629",
-        "Cuenta": "1100-200 Caja y Banco : BAC Atima L"
-      },
-      {
-        "ID": "640",
-        "Cuenta": "1100-220 Caja y Banco : Occidente Atima L"
-      },
-      {
-        "ID": "641",
-        "Cuenta": "1100-230 Caja y Banco : Ficohsa Titanio L"
-      },
-      {
-        "ID": "672",
-        "Cuenta": "1100-250 Caja y Banco : BAC Celaque $ ahorro"
-      },
-      {
-        "ID": "681",
-        "Cuenta": "1100-260 Caja y Banco : Lafise Iridio L"
-      },
-      {
-        "ID": "785",
-        "Cuenta": "1100-270 Caja y Banco : Lafise Iridio $"
-      },
-      {
-        "ID": "1186",
-        "Cuenta": "1100-280 Caja y Banco : Ficohsa Titanio $"
-      },
-      {
-        "ID": "1801",
-        "Cuenta": "1100-310 Caja y Banco : Ficohsa Cobalto L"
-      },
-      {
-        "ID": "1802",
-        "Cuenta": "1100-320 Caja y Banco : Bac Iridio L ahorro"
-      },
-      {
-        "ID": "1803",
-        "Cuenta": "1100-330 Caja y Banco : Bac Iridio $ ahorro"
-      },
-      {
-        "ID": "1810",
-        "Cuenta": "1100-340 Caja y Banco : Occidente Atima $"
-      },
-      {
-        "ID": "1815",
-        "Cuenta": "1100-350 Caja y Banco : BAC Socios"
-      },
-      {
-        "ID": "1816",
-        "Cuenta": "1100-360 Caja y Banco : Bac Iridio $"
-      },
-      {
-        "ID": "1817",
-        "Cuenta": "1100-370 Caja y Banco : Ficohsa Titanio $ ahorro"
-      },
-      {
-        "ID": "1819",
-        "Cuenta": "1100-380 Caja y Banco : BAC Fundación L"
-      },
-      {
-        "ID": "1858",
-        "Cuenta": "1100-390 Caja y Banco : Ficohsa Iridio L"
-      },
-      {
-        "ID": "1859",
-        "Cuenta": "1100-400 Caja y Banco : Ficohsa Iridio $"
-      },
-      {
-        "ID": "24485",
-        "Cuenta": "1100-410 Caja y Banco : BAC Celaque L ahorro"
-      },
-      {
-        "ID": "31989",
-        "Cuenta": "1100-420 Caja y Banco : Ficohsa ASI L"
-      },
-      {
-        "ID": "31990",
-        "Cuenta": "1100-430 Caja y Banco : Ficohsa ASI $"
-      },
-      {
-        "ID": "31991",
-        "Cuenta": "1100-440 Caja y Banco : BAC AGA L"
-      },
-      {
-        "ID": "31992",
-        "Cuenta": "1100-450 Caja y Banco : BAC AGA $"
-      },
-      {
-        "ID": "31993",
-        "Cuenta": "1100-460 Caja y Banco : BAC AST L"
-      },
-      {
-        "ID": "31994",
-        "Cuenta": "1100-470 Caja y Banco : BAC AST $"
-      },
-      {
-        "ID": "31995",
-        "Cuenta": "1100-480 Caja y Banco : BAC DA L"
-      },
-      {
-        "ID": "31996",
-        "Cuenta": "1100-490 Caja y Banco : BAC DA $"
-      },
-      {
-        "ID": "32797",
-        "Cuenta": "1100-500 Caja y Banco : Ficohsa Argon L"
-      },
-      {
-        "ID": "32798",
-        "Cuenta": "1100-510 Caja y Banco : Ficohsa Atima L"
-      },
-      {
-        "ID": "32799",
-        "Cuenta": "1100-520 Caja y Banco : Ficohsa Celaque L"
-      },
-      {
-        "ID": "32908",
-        "Cuenta": "1100-530 Caja y Banco : Occidente Titanio L"
-      },
-      {
-        "ID": "32909",
-        "Cuenta": "1100-540 Caja y Banco : Ficohsa Cobalto $ ahorro"
-      },
-      {
-        "ID": "33123",
-        "Cuenta": "1100-560 Caja y Banco : Lafise AISA L"
-      },
-      {
-        "ID": "33124",
-        "Cuenta": "1100-570 Caja y Banco : Lafise AISA $"
-      },
-      {
-        "ID": "33325",
-        "Cuenta": "1100-580 Caja y Banco : Banpais Argon L"
-      },
-      {
-        "ID": "33326",
-        "Cuenta": "1100-590 Caja y Banco : Banpais Argon $"
-      },
-      {
-        "ID": "33430",
-        "Cuenta": "1100-600 Caja y Banco : Ficohsa Argon $"
-      },
-      {
-        "ID": "33432",
-        "Cuenta": "1100-610 Caja y Banco : Banpais Naos L"
-      },
-      {
-        "ID": "33433",
-        "Cuenta": "1100-620 Caja y Banco : Banpais Naos $"
-      },
-      {
-        "ID": "33844",
-        "Cuenta": "1100-630 Caja y Banco : Occidente Titanio $"
-      },
-      {
-        "ID": "33847",
-        "Cuenta": "1100-640 Caja y Banco : BAC CIP L"
-      },
-      {
-        "ID": "33848",
-        "Cuenta": "1100-650 Caja y Banco : BAC CIP $"
-      },
-      {
-        "ID": "33853",
-        "Cuenta": "1100-660 Caja y Banco : Ficohsa Atima $"
-      },
-      {
-        "ID": "34157",
-        "Cuenta": "1100-670 Caja y Banco : Banpais Celaque L"
-      },
-      {
-        "ID": "34158",
-        "Cuenta": "1100-680 Caja y Banco : Banpais Celaque $"
-      },
-      {
-        "ID": "34363",
-        "Cuenta": "1100-690 Caja y Banco : BAC ASI L"
-      },
-      {
-        "ID": "34364",
-        "Cuenta": "1100-700 Caja y Banco : BAC ASI $"
-      },
-      {
-        "ID": "34368",
-        "Cuenta": "1100-710 Caja y Banco : Banpais Naos L Pyme"
-      },
-      {
-        "ID": "34369",
-        "Cuenta": "1100-720 Caja y Banco : Banpais Argon L Pyme"
-      },
-      {
-        "ID": "34372",
-        "Cuenta": "1100-730 Caja y Banco : Cuentas Bancarias Internacionales"
-      },
-      {
-        "ID": "34373",
-        "Cuenta": "1100-730-10 Caja y Banco : Cuentas Bancarias Internacionales : Bac Celaque $ PTY"
-      },
-      {
-        "ID": "34375",
-        "Cuenta": "1100-740 Caja y Banco : Ficohsa Paladio L"
-      },
-      {
-        "ID": "34376",
-        "Cuenta": "1100-750 Caja y Banco : Ficohsa Paladio $"
-      },
-      {
-        "ID": "34160",
-        "Cuenta": "1100-800 Caja y Banco : Cuenta Puente Salesforce"
-      }
-    ]
+	{
+	  "ID": "-1",
+	  "Cuenta": "- New -"
+	},
+	{
+	  "ID": "333",
+	  "Cuenta": "1100-010 Caja y Banco : Caja General"
+	},
+	{
+	  "ID": "334",
+	  "Cuenta": "1100-020 Caja y Banco : Caja Chica"
+	},
+	{
+	  "ID": "336",
+	  "Cuenta": "1100-040 Caja y Banco : BAC Celaque L"
+	},
+	{
+	  "ID": "337",
+	  "Cuenta": "1100-050 Caja y Banco : BAC Celaque $"
+	},
+	{
+	  "ID": "557",
+	  "Cuenta": "1100-070 Caja y Banco : BAC Titanio L"
+	},
+	{
+	  "ID": "350",
+	  "Cuenta": "1100-080 Caja y Banco : Occidente L"
+	},
+	{
+	  "ID": "351",
+	  "Cuenta": "1100-090 Caja y Banco : Occidente $"
+	},
+	{
+	  "ID": "459",
+	  "Cuenta": "1100-100 Caja y Banco : Cuenta Puente"
+	},
+	{
+	  "ID": "598",
+	  "Cuenta": "1100-110 Caja y Banco : BAC Cobalto L"
+	},
+	{
+	  "ID": "599",
+	  "Cuenta": "1100-120 Caja y Banco : BAC Cobalto $"
+	},
+	{
+	  "ID": "605",
+	  "Cuenta": "1100-140 Caja y Banco : BAC Iridio L"
+	},
+	{
+	  "ID": "606",
+	  "Cuenta": "1100-150 Caja y Banco : Banrural L"
+	},
+	{
+	  "ID": "629",
+	  "Cuenta": "1100-200 Caja y Banco : BAC Atima L"
+	},
+	{
+	  "ID": "640",
+	  "Cuenta": "1100-220 Caja y Banco : Occidente Atima L"
+	},
+	{
+	  "ID": "641",
+	  "Cuenta": "1100-230 Caja y Banco : Ficohsa Titanio L"
+	},
+	{
+	  "ID": "672",
+	  "Cuenta": "1100-250 Caja y Banco : BAC Celaque $ ahorro"
+	},
+	{
+	  "ID": "681",
+	  "Cuenta": "1100-260 Caja y Banco : Lafise Iridio L"
+	},
+	{
+	  "ID": "785",
+	  "Cuenta": "1100-270 Caja y Banco : Lafise Iridio $"
+	},
+	{
+	  "ID": "1186",
+	  "Cuenta": "1100-280 Caja y Banco : Ficohsa Titanio $"
+	},
+	{
+	  "ID": "1801",
+	  "Cuenta": "1100-310 Caja y Banco : Ficohsa Cobalto L"
+	},
+	{
+	  "ID": "1802",
+	  "Cuenta": "1100-320 Caja y Banco : Bac Iridio L ahorro"
+	},
+	{
+	  "ID": "1803",
+	  "Cuenta": "1100-330 Caja y Banco : Bac Iridio $ ahorro"
+	},
+	{
+	  "ID": "1810",
+	  "Cuenta": "1100-340 Caja y Banco : Occidente Atima $"
+	},
+	{
+	  "ID": "1815",
+	  "Cuenta": "1100-350 Caja y Banco : BAC Socios"
+	},
+	{
+	  "ID": "1816",
+	  "Cuenta": "1100-360 Caja y Banco : Bac Iridio $"
+	},
+	{
+	  "ID": "1817",
+	  "Cuenta": "1100-370 Caja y Banco : Ficohsa Titanio $ ahorro"
+	},
+	{
+	  "ID": "1819",
+	  "Cuenta": "1100-380 Caja y Banco : BAC Fundación L"
+	},
+	{
+	  "ID": "1858",
+	  "Cuenta": "1100-390 Caja y Banco : Ficohsa Iridio L"
+	},
+	{
+	  "ID": "1859",
+	  "Cuenta": "1100-400 Caja y Banco : Ficohsa Iridio $"
+	},
+	{
+	  "ID": "24485",
+	  "Cuenta": "1100-410 Caja y Banco : BAC Celaque L ahorro"
+	},
+	{
+	  "ID": "31989",
+	  "Cuenta": "1100-420 Caja y Banco : Ficohsa ASI L"
+	},
+	{
+	  "ID": "31990",
+	  "Cuenta": "1100-430 Caja y Banco : Ficohsa ASI $"
+	},
+	{
+	  "ID": "31991",
+	  "Cuenta": "1100-440 Caja y Banco : BAC AGA L"
+	},
+	{
+	  "ID": "31992",
+	  "Cuenta": "1100-450 Caja y Banco : BAC AGA $"
+	},
+	{
+	  "ID": "31993",
+	  "Cuenta": "1100-460 Caja y Banco : BAC AST L"
+	},
+	{
+	  "ID": "31994",
+	  "Cuenta": "1100-470 Caja y Banco : BAC AST $"
+	},
+	{
+	  "ID": "31995",
+	  "Cuenta": "1100-480 Caja y Banco : BAC DA L"
+	},
+	{
+	  "ID": "31996",
+	  "Cuenta": "1100-490 Caja y Banco : BAC DA $"
+	},
+	{
+	  "ID": "32797",
+	  "Cuenta": "1100-500 Caja y Banco : Ficohsa Argon L"
+	},
+	{
+	  "ID": "32798",
+	  "Cuenta": "1100-510 Caja y Banco : Ficohsa Atima L"
+	},
+	{
+	  "ID": "32799",
+	  "Cuenta": "1100-520 Caja y Banco : Ficohsa Celaque L"
+	},
+	{
+	  "ID": "32908",
+	  "Cuenta": "1100-530 Caja y Banco : Occidente Titanio L"
+	},
+	{
+	  "ID": "32909",
+	  "Cuenta": "1100-540 Caja y Banco : Ficohsa Cobalto $ ahorro"
+	},
+	{
+	  "ID": "33123",
+	  "Cuenta": "1100-560 Caja y Banco : Lafise AISA L"
+	},
+	{
+	  "ID": "33124",
+	  "Cuenta": "1100-570 Caja y Banco : Lafise AISA $"
+	},
+	{
+	  "ID": "33325",
+	  "Cuenta": "1100-580 Caja y Banco : Banpais Argon L"
+	},
+	{
+	  "ID": "33326",
+	  "Cuenta": "1100-590 Caja y Banco : Banpais Argon $"
+	},
+	{
+	  "ID": "33430",
+	  "Cuenta": "1100-600 Caja y Banco : Ficohsa Argon $"
+	},
+	{
+	  "ID": "33432",
+	  "Cuenta": "1100-610 Caja y Banco : Banpais Naos L"
+	},
+	{
+	  "ID": "33433",
+	  "Cuenta": "1100-620 Caja y Banco : Banpais Naos $"
+	},
+	{
+	  "ID": "33844",
+	  "Cuenta": "1100-630 Caja y Banco : Occidente Titanio $"
+	},
+	{
+	  "ID": "33847",
+	  "Cuenta": "1100-640 Caja y Banco : BAC CIP L"
+	},
+	{
+	  "ID": "33848",
+	  "Cuenta": "1100-650 Caja y Banco : BAC CIP $"
+	},
+	{
+	  "ID": "33853",
+	  "Cuenta": "1100-660 Caja y Banco : Ficohsa Atima $"
+	},
+	{
+	  "ID": "34157",
+	  "Cuenta": "1100-670 Caja y Banco : Banpais Celaque L"
+	},
+	{
+	  "ID": "34158",
+	  "Cuenta": "1100-680 Caja y Banco : Banpais Celaque $"
+	},
+	{
+	  "ID": "34363",
+	  "Cuenta": "1100-690 Caja y Banco : BAC ASI L"
+	},
+	{
+	  "ID": "34364",
+	  "Cuenta": "1100-700 Caja y Banco : BAC ASI $"
+	},
+	{
+	  "ID": "34368",
+	  "Cuenta": "1100-710 Caja y Banco : Banpais Naos L Pyme"
+	},
+	{
+	  "ID": "34369",
+	  "Cuenta": "1100-720 Caja y Banco : Banpais Argon L Pyme"
+	},
+	{
+	  "ID": "34372",
+	  "Cuenta": "1100-730 Caja y Banco : Cuentas Bancarias Internacionales"
+	},
+	{
+	  "ID": "34373",
+	  "Cuenta": "1100-730-10 Caja y Banco : Cuentas Bancarias Internacionales : Bac Celaque $ PTY"
+	},
+	{
+	  "ID": "34375",
+	  "Cuenta": "1100-740 Caja y Banco : Ficohsa Paladio L"
+	},
+	{
+	  "ID": "34376",
+	  "Cuenta": "1100-750 Caja y Banco : Ficohsa Paladio $"
+	},
+	{
+	  "ID": "34482",
+	  "Cuenta": "1100-760 Caja y Banco : Banpais Bromo L Pyme"
+	},
+	{
+	  "ID": "34483",
+	  "Cuenta": "1100-770 Caja y Banco : BAC Lantano L"
+	},
+	{
+	  "ID": "34484",
+	  "Cuenta": "1100-780 Caja y Banco : BAC Lantano $"
+	},
+	{
+	  "ID": "34160",
+	  "Cuenta": "1100-800 Caja y Banco : Cuenta Puente Salesforce"
+	}
+  ]
 }
